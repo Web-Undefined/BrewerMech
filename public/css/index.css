@@ -1,0 +1,281 @@
+.landingSection {
+    text-align: right;
+    color: white;
+}
+
+.shadow-light {
+    -webkit-box-shadow: 0px 0px 6px 3px rgba(219,219,219,0.7);
+    box-shadow: 0px 0px 6px 3px rgba(219,219,219,0.7);
+}
+
+#map-container{
+    overflow:hidden;
+    padding-bottom:50%;
+    margin-top: 50px;
+    position:relative;
+}
+
+#map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+#gallery {
+    padding-bottom: 100px;
+}
+
+#aboutUsText {
+  font-size: 25px;
+}
+#aboutAll {
+    padding: 50px;
+}
+
+#aboutUs {
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#followUsText {
+    font-size: 40px;
+    padding-top: 80px;
+}
+
+.brewBtn {
+    color: white !important;
+    background-color: black;
+    border: 2px solid #e9900a;
+}
+
+.brewBtn:hover {
+    background-color: grey;
+    border: 2px solid #e9900a;
+}
+
+.brewBtn:focus {
+    background-color: grey;
+    border: 2px solid #e9900a;
+    border-color: #0d1011;
+}
+
+#aboutUs {
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+#contactContainer {
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#servicesBrewer {
+    max-width: 500px;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#manitowoc {
+    padding-top: -40px;
+    max-width: 500px;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#clientHeader {
+    max-width: 800px;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+@media (min-width: 992px) and (max-width: 1275px) {
+    .clientLogos {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+@media (max-width: 768px) {
+    #topCard {
+        padding-bottom: 40px;
+    } 
+    #manitowoc {
+        max-width: 350px;
+    }
+    #maniWords {
+        font-size: 30px;
+    }
+    #tesla {
+        padding-bottom: 10px;
+    }
+    #sleepNumber {
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    #penske {
+        padding-bottom: 0px;
+    }
+    #redWing {
+        padding-top: 140px;
+        padding-bottom: 30px;
+    }
+    #westMarine {
+        padding-bottom: 0px;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    #redWing {
+        padding-top: 130px;
+        padding-bottom: 0px;
+    }
+    #sephora {
+        padding-top: 130px;
+        padding-bottom: 0px;
+    }
+}
+@media (min-width: 500px) and (max-width: 768px) {
+    #clientHeader {
+        max-width: 400px;
+    }
+    .clientLogos {
+        padding-bottom: 50px;
+    }
+}
+@media (min-width: 768px) and (max-width: 900px) {
+    #clientHeader {
+        max-width: 475px;
+    }
+}
+@media (min-width: 900px) and (max-width: 1100px) {
+    #clientHeader {
+        max-width: 550px;
+    }
+}
+@media (max-width: 500px) {
+    #clientHeader {
+        max-width: 350px;
+    }
+    .clientLogos {
+        padding-bottom: 50px;
+    }
+}
+
+.clientLogos {
+    max-width: 200px;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    /*position: absolute;*/
+    -ms-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+}
+
+
+@media (max-width: 1200px) {
+    .carousel {
+        max-width: 500px !important;
+    }
+    #aboutUsText {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .carousel {
+        max-width: 400px !important;
+    }
+    .contact-text {
+        font-size: 24px;
+    }
+    #aboutUsText {
+      font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) {
+    #gallery {
+        padding-top: 70px;
+	}
+    #aboutUs {
+        padding-top: 80px;
+        padding-bottom: 80px;
+	}
+    .dropdown {
+        display: none;
+	}
+}
+
+@media (max-width: 767px) {
+    .tabs {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel {
+        max-width: 300px !important;
+    }
+    .contact-text {
+        font-size: 18px;
+    }
+    .carousel-control-prev {
+        left: -50px;
+    }
+    .carousel-control-next {
+        right: -50px;
+    }
+    #gallery {
+        padding-top: 40px;
+	}
+    #aboutUs {
+        padding-top: 30px;
+        padding-bottom: 20px;
+	}
+    #aboutUsText {
+        font-size: 16px;
+    }
+    #map-container {
+        padding-bottom: 80%;
+    }
+    #gallery {
+        padding-bottom: 40px;
+    }
+    .dropdown {
+        padding-bottom: 10px;
+        padding-right: 5%;
+	}
+    .dropdown-item {
+        color: black !important;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .dropdown-item.active {
+        background-color: #a7d192 !important;
+	}
+    .dropdown-menu {
+        left: 50% !important;
+        right: auto !important;
+        transform: translate(-50%, 18%) !important;
+        padding: 0;
+        border-radius: .25rem !important;
+    }
+    .dropdown-divider {
+        margin: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .carousel {
+        max-width: 200px !important;
+    }
+    #aboutAll {
+        padding: 20px;
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "huntinghousehopyard",
+  "version": "1.0.0",
+  "description": "Huntinghouse Hopyard Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Web-Undefined/HuntinghouseHopyard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Web-Undefined/HuntinghouseHopyard/issues"
+  },
+  "homepage": "https://github.com/Web-Undefined/HuntinghouseHopyard#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.2.2",
+    "express": "^4.17.1",
+    "nanogallery2": "^3.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
