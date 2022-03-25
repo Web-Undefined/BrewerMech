@@ -4,23 +4,27 @@
 }
 
 .shadow-light {
-    -webkit-box-shadow: 0px 0px 6px 3px rgba(219,219,219,0.7);
-    box-shadow: 0px 0px 6px 3px rgba(219,219,219,0.7);
+    -webkit-box-shadow: 0px 0px 6px 3px rgba(219, 219, 219, 0.7);
+    box-shadow: 0px 0px 6px 3px rgba(219, 219, 219, 0.7);
 }
 
-#map-container{
-    overflow:hidden;
-    padding-bottom:50%;
+#map-container {
+    overflow: hidden;
+    padding-bottom: 50%;
     margin-top: 50px;
-    position:relative;
+    position: relative;
 }
 
-#map-container iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+.card-img-top {
+    max-height: 275px;
+}
+
+#map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
 #gallery {
@@ -28,7 +32,7 @@
 }
 
 #aboutUsText {
-  font-size: 25px;
+    font-size: 25px;
 }
 #aboutAll {
     padding: 50px;
@@ -78,7 +82,7 @@
 #servicesBrewer {
     max-width: 500px;
     display: block;
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -86,14 +90,14 @@
     padding-top: -40px;
     max-width: 500px;
     display: block;
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: auto;
 }
 
 #clientHeader {
     max-width: 800px;
     display: block;
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: auto;
 }
 @media (min-width: 992px) and (max-width: 1275px) {
@@ -105,7 +109,7 @@
 @media (max-width: 768px) {
     #topCard {
         padding-bottom: 40px;
-    } 
+    }
     #manitowoc {
         max-width: 350px;
     }
@@ -169,14 +173,13 @@
 
 .clientLogos {
     max-width: 200px;
-    display: block; 
-    margin-left: auto; 
+    display: block;
+    margin-left: auto;
     margin-right: auto;
     /*position: absolute;*/
     -ms-transform: translate(0%, -50%);
     transform: translate(0%, -50%);
 }
-
 
 @media (max-width: 1200px) {
     .carousel {
@@ -195,21 +198,21 @@
         font-size: 24px;
     }
     #aboutUsText {
-      font-size: 18px;
+        font-size: 18px;
     }
 }
 
 @media (min-width: 768px) {
     #gallery {
         padding-top: 70px;
-	}
+    }
     #aboutUs {
         padding-top: 80px;
         padding-bottom: 80px;
-	}
+    }
     .dropdown {
         display: none;
-	}
+    }
 }
 
 @media (max-width: 767px) {
@@ -233,11 +236,11 @@
     }
     #gallery {
         padding-top: 40px;
-	}
+    }
     #aboutUs {
         padding-top: 30px;
         padding-bottom: 20px;
-	}
+    }
     #aboutUsText {
         font-size: 16px;
     }
@@ -250,7 +253,7 @@
     .dropdown {
         padding-bottom: 10px;
         padding-right: 5%;
-	}
+    }
     .dropdown-item {
         color: black !important;
         padding-top: 8px;
@@ -258,13 +261,13 @@
     }
     .dropdown-item.active {
         background-color: #a7d192 !important;
-	}
+    }
     .dropdown-menu {
         left: 50% !important;
         right: auto !important;
         transform: translate(-50%, 18%) !important;
         padding: 0;
-        border-radius: .25rem !important;
+        border-radius: 0.25rem !important;
     }
     .dropdown-divider {
         margin: 0;
